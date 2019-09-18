@@ -17,4 +17,10 @@ implements IPlumbingProfessional
 		
 	}
 
+	@Override
+	public boolean fixPipe(Pipe pipe, Tool tool) {
+		// TODO Auto-generated method stub
+		return false;
+	}
+
 }

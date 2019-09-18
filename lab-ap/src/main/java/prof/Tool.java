@@ -9,7 +9,5 @@ public abstract class Tool {
 		Brand = brand;
 	}
    
-	boolean fix(BreakableItem bi) {
-		
-	}
+	public abstract boolean fix(BreakableItem bi);
 }
