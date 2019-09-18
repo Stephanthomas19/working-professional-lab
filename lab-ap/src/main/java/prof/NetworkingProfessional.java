@@ -1,6 +1,10 @@
 package prof;
 
-public class NetworkingProfessional extends Professional {
+public class NetworkingProfessional extends Professional
+
+implements INetworkingProfessional
+
+{
 
 	public NetworkingProfessional(String name) {
 		super(name);
@@ -11,6 +15,12 @@ public class NetworkingProfessional extends Professional {
 	public void addCertification(Certification cert) {
 		// TODO Auto-generated method stub
 		
+	}
+
+	@Override
+	public boolean fixRouter(Router router, Tool tool) {
+		// TODO Auto-generated method stub
+		return false;
 	}
 
 }

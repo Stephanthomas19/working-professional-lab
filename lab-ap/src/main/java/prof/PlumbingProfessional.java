@@ -1,6 +1,10 @@
 package prof;
 
-public class PlumbingProfessional extends Professional {
+public class PlumbingProfessional extends Professional  
+
+implements IPlumbingProfessional
+
+{
 
 	public PlumbingProfessional(String name) {
 		super(name);
