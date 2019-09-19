@@ -5,6 +5,10 @@ public class NetworkingProfessional extends Professional
 implements INetworkingProfessional
 
 {
+	public NetworkingProfessional () 
+	{
+		super(null);
+	}
 
 	public NetworkingProfessional(String name) {
 		super(name);

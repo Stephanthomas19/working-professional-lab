@@ -1,7 +1,13 @@
 package prof;
 
 public class Wrench extends Tool{
+	
 	private float size;
+	
+	public Wrench()
+	{
+		size = 0.0f;
+	}
 	
 	public Wrench(String brand) {
 		super(brand);
