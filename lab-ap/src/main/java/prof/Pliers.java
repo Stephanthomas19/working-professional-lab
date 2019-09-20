@@ -10,11 +10,10 @@ public class Pliers extends Tool {
 		colour = "";
 	}
 	
-	public Pliers(String brand) 
-	{
-		super(brand);
-		// TODO Auto-generated constructor stub
+	public Pliers(String colour) {
+		this.colour =colour;
 	}
+
 
 	@Override
 	public boolean fix(BreakableItem bi) 

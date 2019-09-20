@@ -24,7 +24,7 @@ implements INetworkingProfessional
 	@Override
 	public boolean fixRouter(Router router, Tool tool) {
 		// TODO Auto-generated method stub
-		return false;
+		return true;
 	}
 
 }
