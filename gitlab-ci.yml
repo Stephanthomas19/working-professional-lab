@@ -16,11 +16,11 @@ cache:
 build:
   stage: build
   script:
-    - cd prof-ap
+    - cd lab-ap
     - mvn $MAVEN_CLI_OPTS compile
     - mvn $MAVEN_CLI_OPTS install
     - cd ..
-    - cd prof-app
+    - cd lab-ap
     - mvn $MAVEN_CLI_OPTS compile
 
 test:
