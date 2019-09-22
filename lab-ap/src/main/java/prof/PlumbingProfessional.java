@@ -9,6 +9,7 @@ implements IPlumbingProfessional
     public PlumbingProfessional() {
     	 super(null);
     }
+    
 	public PlumbingProfessional(String name) {
 		super(name);
 		// TODO Auto-generated constructor stub
@@ -22,7 +23,10 @@ implements IPlumbingProfessional
 
 	@Override
 	public boolean fixPipe(Pipe pipe, Tool tool) {
-		// TODO Auto-generated method stub
+		
+		System.out.println("We would like for you to fix a Pipe" );
+	
+		
 		return true;
 	}
 

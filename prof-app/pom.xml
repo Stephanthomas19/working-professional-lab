@@ -1,0 +1,73 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+	<groupId>com.feature.ap</groupId>
+	<artifactId>prof-app</artifactId>
+	<version>0.0.1</version>
+	<name>working-professional-app</name>
+	<description>working prof app</description>
+	<dependencies>
+		<dependency>
+			<groupId>com.utech.ap</groupId>
+			<artifactId>lab-ap</artifactId>
+			<version>0.0.1</version>
+		</dependency>
+	</dependencies>
+
+	<build>
+
+		<plugins>
+
+			<plugin>
+				<artifactId>maven-assembly-plugin</artifactId>
+
+				<executions>
+
+					<execution>
+
+						<phase>package</phase>
+
+						<goals>
+
+							<goal>single</goal>
+
+						</goals>
+
+					</execution>
+
+				</executions>
+
+				<configuration>
+
+					<archive>
+
+						<manifest>
+
+							<addClasspath>true</addClasspath>
+
+							<!-- Ensure that you specify the fully qualified class name (package 
+								+ class name) of your class with your runnable main below -->
+
+							<mainClass>prof-app-Driver</mainClass>
+
+						</manifest>
+
+					</archive>
+
+					<descriptorRefs>
+
+						<descriptorRef>jar-with-dependencies</descriptorRef>
+
+					</descriptorRefs>
+
+				</configuration>
+
+			</plugin>
+
+
+		</plugins>
+
+
+	</build>
+</project>

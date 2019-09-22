@@ -4,9 +4,20 @@ public class PvcPipe extends Pipe{
 	
 	private String color;
 
+	public PvcPipe() {
+		super();
+		this.color = color;
+	}
+
+	public PvcPipe(String color) {
+		super();
+		this.color = color;
+	}
+
+
 	@Override
 	public void updateDamage(float cost) {
-		// TODO Auto-generated method stub
+	      System.out.println("The cost of fixing this is: " + cost);
 		
 	}
 

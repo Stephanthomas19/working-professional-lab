@@ -17,13 +17,20 @@ implements INetworkingProfessional
 
 	@Override
 	public void addCertification(Certification cert) {
-		// TODO Auto-generated method stub
-		
+		certification.add(cert);
+	}
+
+    
+	@Override
+	public String toString() {
+		return "NetworkingProfessional [getId()=" + getId() + ", getName()=" + getName() + ", toString()="
+				+ super.toString() + ", getSalary()=" + getSalary() + ", getCertification()=" + getCertification()
+				+ ", getClass()=" + getClass() + ", hashCode()=" + hashCode() + "]";
 	}
 
 	@Override
 	public boolean fixRouter(Router router, Tool tool) {
-		// TODO Auto-generated method stub
+		
 		return true;
 	}
 

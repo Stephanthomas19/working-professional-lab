@@ -12,5 +12,12 @@ public abstract class Tool {
 		Brand = brand;
 	}
    
+	public String getBrand() {
+		return Brand;
+	}
+	public void setBrand(String brand) {
+		Brand = brand;
+	}
+	
 	public abstract boolean fix(BreakableItem bi);
 }

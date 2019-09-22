@@ -22,6 +22,11 @@ public class Pliers extends Tool {
 		return false;
 	}
 
+	@Override
+	public String toString() {
+		return "Pliers [colour=" + colour + "]";
+	}
+
 	
 		
 }

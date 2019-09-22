@@ -9,6 +9,13 @@ public class Wrench extends Tool{
 		size = 0.0f;
 	}
 	
+	
+	public Wrench(float size) {
+		super();
+		this.size = size;
+	}
+
+
 	public Wrench(String brand) {
 		super(brand);
 		// TODO Auto-generated constructor stub
@@ -20,6 +27,12 @@ public class Wrench extends Tool{
 		return false;
 	}
 
+	@Override
+	public String toString() {
+		return "Wrench [size=" + size + "]";
+	}
+
+	
 	
 	
 }

@@ -19,7 +19,7 @@ public final class CiscoRouter extends Router{
 	@Override
 	public void updateDamage(float cost) 
 	{
-		// TODO Auto-generated method stub
+		System.out.println("The cost of reparing the damage was updated to: " +cost);
 		
 	}
 

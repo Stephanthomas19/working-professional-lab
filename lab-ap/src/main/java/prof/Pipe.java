@@ -15,6 +15,23 @@ public abstract class Pipe implements BreakableItem {
 		this.diameter = diameter;
 	}
 
+	
+	public float getLength() {
+		return length;
+	}
+
+	public void setLength(float length) {
+		this.length = length;
+	}
+
+	public float getDiameter() {
+		return diameter;
+	}
+
+	public void setDiameter(float diameter) {
+		this.diameter = diameter;
+	}
+
 	@Override
 	public abstract void updateDamage(float cost);
 	
