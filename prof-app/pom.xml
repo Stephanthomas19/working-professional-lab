@@ -18,7 +18,15 @@
 	<build>
 
 		<plugins>
-
+            	<plugin>
+   	<artifactId>maven-compiler-plugin</artifactId>
+   	<version>3.1</version>
+   	<configuration>
+   	<source>1.7</source>
+   	<target>1.7</target>
+   	</configuration>
+   	</plugin>
+   	
 			<plugin>
 				<artifactId>maven-assembly-plugin</artifactId>
 
@@ -49,7 +57,7 @@
 							<!-- Ensure that you specify the fully qualified class name (package 
 								+ class name) of your class with your runnable main below -->
 
-							<mainClass>prof-app-Driver</mainClass>
+							<mainClass>com.feature.ap.prof-app-Driver</mainClass>
 
 						</manifest>
 
